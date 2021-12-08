@@ -488,8 +488,6 @@ Please Use *${ᴋᴇɪ}help to get the list of available commands*`,
           .catch((error) => ℓιєηт.catch(error, ʍɛɛℓιєηт, ᴍᴇᴇ6));
       } else if (command && ᴍᴇᴇ6.commandName == `help`) {
         try {
-          var ᴋᴇɪᴇx = new RegExp(ꜱɪɢɴ.Mee6IX, "g");
-          var ᴋᴇɪ = /\/\^\[(.*)+\]\/\g/g.exec(ᴋᴇɪᴇx)[1];
           var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["main..origin/main"]);
           return command.handle(
             ʍɛɛℓιєηт,
@@ -497,17 +495,14 @@ Please Use *${ᴋᴇɪ}help to get the list of available commands*`,
             ᴍᴇᴇ6,
             ʍɛɛɨռք,
             Mee6Sitrep,
-            ɴᴇᴡᴍᴇᴇ6,
-            ᴋᴇɪ
+            ɴᴇᴡᴍᴇᴇ6
           );
         } catch (cᴇʀʀᴏʀ) {
           return console.log(Kolor.red(`[❌𝐌𝐞𝐞𝟔™⬰𝗘𝗿𝗿𝗼𝗿 ] `, cᴇʀʀᴏʀ));
         }
       }
-      var ᴋᴇɪᴇx = new RegExp(ꜱɪɢɴ.Mee6IX, "g");
-      var ᴋᴇɪ = /\/\^\[(.*)+\]\/\g/g.exec(ᴋᴇɪᴇx)[1];
       var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["main..origin/main"]);
-      command.handle(ʍɛɛℓιєηт, chat, ᴍᴇᴇ6, ʍɛɛɨռք, ɴᴇᴡᴍᴇᴇ6, ᴋᴇɪ);
+      command.handle(ʍɛɛℓιєηт, chat, ᴍᴇᴇ6, ʍɛɛɨռք, ɴᴇᴡᴍᴇᴇ6);
     }
   });
 }
