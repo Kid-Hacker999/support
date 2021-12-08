@@ -493,7 +493,7 @@ Please Use *${ᴋᴇɪ}help to get the list of available commands*`,
         try {
           var ᴋᴇɪᴇx = new RegExp(ꜱɪɢɴ.Mee6IX, "g");
           var ᴋᴇɪ = /\/\^\[(.*)+\]\/\g/g.exec(ᴋᴇɪᴇx)[1];
-          var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["mee6support..origin/mee6support"]);
+          var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["main..origin/main"]);
           return command.handle(
             ʍɛɛℓιєηт,
             chat,
@@ -509,7 +509,7 @@ Please Use *${ᴋᴇɪ}help to get the list of available commands*`,
       }
       var ᴋᴇɪᴇx = new RegExp(ꜱɪɢɴ.Mee6IX, "g");
       var ᴋᴇɪ = /\/\^\[(.*)+\]\/\g/g.exec(ᴋᴇɪᴇx)[1];
-      var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["mee6support..origin/mee6support"]);
+      var ɴᴇᴡᴍᴇᴇ6 = await ᴍᴇᴇgit.log(["main..origin/main"]);
       command.handle(ʍɛɛℓιєηт, chat, ᴍᴇᴇ6, ʍɛɛɨռք, ɴᴇᴡᴍᴇᴇ6, ᴋᴇɪ);
     }
   });
