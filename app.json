@@ -28,8 +28,8 @@
     },
     "CCD": [
         {
-            "plan": "heroku-postgresql",
-            "options": {
+            "description": "heroku-postgresql",
+            "required": true,
                 "value": "13"
             }
         }
